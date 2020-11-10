@@ -1,0 +1,77 @@
+/*main*/
+*,body{padding: 0;margin: 0;}
+body {background-color: #ddddff96;counter-reset: section;}/*#ddddff96*/
+/*main*/
+
+/**Start Slide*/
+.slide{width: 100%;height: 55px;background-color: #151615;}
+/**End Slide*/
+
+/**Start content*/
+.content:nth-child(2){margin-top: 140px;}
+/**End content*/
+
+/*Back Ground Text*/
+#Murphy_law {position: relative;}
+#background {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -1;
+overflow: hidden;
+color: black;
+font-size: 100px;
+margin-top: 83px;
+margin-left: -30px;
+float: right;
+opacity: 0.2;
+font-family: 'Reem Kufi', sans-serif;
+position: fixed;
+}
+/*Back Ground Text*/
+/**/
+.float-right{
+    display: contents;
+}
+/**/
+/**Start content*/
+.law{
+    width: 100%;
+    padding: 40px;
+    background-color:#f0f8ff7a;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+.law p::before {
+    float: right;
+    counter-increment: section;
+    content: " " ". " counter(section);
+}
+/**End content*/
+/*Footer*/
+.footer{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    background-color: #151615;
+    color: seashell;
+}
+.footer p{
+    margin:32px auto ;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.footer a{
+    color: #FFF5EE;
+    display: inline-block;
+    padding:0 15px;
+    margin-bottom: 5px;
+}
+/*Footer*/
+/****************/
