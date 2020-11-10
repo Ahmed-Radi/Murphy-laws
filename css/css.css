@@ -5,8 +5,20 @@ body {background-color: #ddddff96;counter-reset: section;}/*#ddddff96*/
 
 /**Start Slide*/
 .slide{width: 100%;height: 55px;background-color: #151615;}
+.right-side ul{list-style: none;}
+.right-side li{display: inline-block;padding: 10px;}
+.right-side a{text-decoration: none; color: azure;text-transform: uppercase;}
+.right-side a:hover{color: #ddddff96; transition: 0.5s ease-in-out;}
+.right-side a.active{color: #ddddff96;}
+.right-side active{color: #ddddff96;}
 /**End Slide*/
-
+/*Start View*/
+.view{
+    float: right;
+    display: contents;
+    background-color: aquamarine;
+}
+/*End View*/
 /**Start content*/
 .content:nth-child(2){margin-top: 140px;}
 /**End content*/
@@ -31,11 +43,7 @@ font-family: 'Reem Kufi', sans-serif;
 position: fixed;
 }
 /*Back Ground Text*/
-/**/
-.float-right{
-    display: contents;
-}
-/**/
+
 /**Start content*/
 .law{
     width: 100%;
